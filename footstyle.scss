@@ -1,0 +1,71 @@
+@mixin shape {
+    border-bottom: 5px solid #C2CAD0;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-radius: 10px;
+    height: 0;
+}
+
+.shape1{
+    @include shape;
+    width: 170px; 
+    position: relative;
+    left: 460px; 
+    bottom: 10px;
+  }
+
+.shape2{
+    @include shape;
+    width: 100px;
+  }
+
+.shape3{
+    @include shape;
+    width: 70px;
+  }
+
+.shape4{
+    @include shape;
+    width: 60px;
+  }
+
+.shape5{
+    @include shape;
+    width: 50px;
+  }
+
+  
+h5{
+    font-size:medium;
+  }
+
+.join{
+    font-size:20px;
+  }
+
+li{
+    font-size:15px;
+  }
+
+li:not(:last-child) {
+    margin-bottom: -10px;
+}
+
+footer{
+    padding: 0; 
+    margin: 0; 
+    background-image: url(img/DESSIN.png);
+    background-image: url(img/DESSIN.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.smicon{
+    width: 40px; 
+    height: 40px;
+}
+.copyright{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.rosa{
+    text-decoration: underline;
+}

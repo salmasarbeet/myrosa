@@ -1,0 +1,93 @@
+.shape1 {
+  border-bottom: 5px solid #C2CAD0;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-radius: 10px;
+  height: 0;
+  width: 170px;
+  position: relative;
+  left: 460px;
+  bottom: 10px;
+}
+
+.shape2 {
+  border-bottom: 5px solid #C2CAD0;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-radius: 10px;
+  height: 0;
+  width: 100px;
+}
+
+.shape3 {
+  border-bottom: 5px solid #C2CAD0;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-radius: 10px;
+  height: 0;
+  width: 70px;
+}
+
+.shape4 {
+  border-bottom: 5px solid #C2CAD0;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-radius: 10px;
+  height: 0;
+  width: 60px;
+}
+
+.shape5 {
+  border-bottom: 5px solid #C2CAD0;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-radius: 10px;
+  height: 0;
+  width: 50px;
+}
+
+h5 {
+  font-size: medium;
+  color: white;
+}
+
+.join {
+  font-size: 20px;
+}
+
+li {
+  font-size: 15px;
+}
+
+li:not(:last-child) {
+  margin-bottom: -10px;
+}
+
+footer {
+  padding: 0;
+  margin: 0;
+  background-image: url(img/DESSIN.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.smicon {
+  width: 40px;
+  height: 40px;
+}
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.rosa {
+  text-decoration: underline;
+}
+
+#pied {
+  height: 300px;
+  float: top;
+  position: relative;
+  left: 650px;
+}
+/*# sourceMappingURL=footstyle.css.map */
